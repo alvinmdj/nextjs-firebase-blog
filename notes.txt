@@ -21,3 +21,18 @@ Setup Typescript :
 npm install --save-dev typescript
 
 ========================================================================
+
+Firebase (https://firebase.google.com/docs/web/setup#available-libraries)
+
+Setup Firebase in Next :
+npm i firebase react-firebase-hooks
+
+========================================================================
+
+Firebase Tools (optional) :
+npm install firebase-tools -g
+
+After installation:
+firebase init
+
+========================================================================
