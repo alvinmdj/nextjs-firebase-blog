@@ -1,0 +1,23 @@
+========================================================================
+
+Next.js (https://nextjs.org/docs/getting-started)
+
+Setup Next :
+npx create-next-app ./
+
+Run Next : 
+npm run dev
+
+========================================================================
+
+Chakra UI (https://chakra-ui.com/docs/getting-started)
+
+Setup Chakra UI :
+npm i @chakra-ui/react @chakra-ui/icons @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+
+========================================================================
+
+Setup Typescript :
+npm install --save-dev typescript
+
+========================================================================
