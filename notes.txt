@@ -15,6 +15,13 @@ Chakra UI (https://chakra-ui.com/docs/getting-started)
 Setup Chakra UI :
 npm i @chakra-ui/react @chakra-ui/icons @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
 
+---
+
+React-Hot-Toast (https://react-hot-toast.com/)
+
+Setup React-Hot-Toast :
+npm i react-hot-toast
+
 ========================================================================
 
 Setup Typescript :
@@ -34,5 +41,17 @@ npm install firebase-tools -g
 
 After installation:
 firebase init
+
+========================================================================
+
+Examples: 
+
+--- Next.js Link :
+<Link prefetch={false} href={{ 
+    pathname: '/[username]',
+    query: { username: 'alvnmd' },
+  }}>
+  <a>Alvin's profile</a>
+</Link>
 
 ========================================================================
