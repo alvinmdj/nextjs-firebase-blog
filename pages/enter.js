@@ -93,8 +93,8 @@ function UsernameForm() {
     debounce(async (username) => {
       if(username.length >= 3) {
         const ref = firestore.doc(`usernames/${username}`)
-        const { exists } = await ref.get()
-        console.log('Firestore read executed')
+        const { exists } = await ref.get() // 'exists' destructured from the docSnapshot
+        console.log('Get data success')
         setIsValid(!exists)
         setLoading(false)
       }
@@ -133,7 +133,7 @@ function UsernameMessage({ username, isValid, loading}) {
   if(loading) {
     return <p>Checking...</p>
   } else if(isValid) {
-    return <p className='text-success'>{username} is available!</p>
+    return <p className='text-success'><i>{username}</i> is available!</p>
   } else if(username && !isValid) {
     return <p className='text-danger'>That username is taken!</p>
   } else {
