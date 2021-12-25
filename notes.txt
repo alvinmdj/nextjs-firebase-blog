@@ -36,6 +36,13 @@ npm i lodash.debounce
 
 ========================================================================
 
+React Markdown (https://www.npmjs.com/package/react-markdown)
+
+Setup:
+npm i react-markdown
+
+========================================================================
+
 Firebase (https://firebase.google.com/docs/web/setup#available-libraries)
 
 Setup Firebase in Next :
