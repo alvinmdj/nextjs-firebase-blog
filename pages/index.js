@@ -29,8 +29,11 @@ export default function Home(props) {
   const getMorePosts = async () => {
     setLoading(true)
     const last = posts[posts.length - 1]
+    let cursor = null
 
-    const cursor = typeof last.createdAt === 'number' ? fromMillis(last.createdAt) : last.createdAt
+    if(last) {
+      cursor = typeof last.createdAt === 'number' ? fromMillis(last.createdAt) : last.createdAt
+    }
 
     const query = firestore
       .collectionGroup('posts')
