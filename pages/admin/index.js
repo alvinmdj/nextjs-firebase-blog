@@ -1,9 +1,12 @@
 import Head from "next/head";
+import AuthCheck from "../../components/AuthCheck";
 
-export default function AdminPosts ({  }) {
+export default function AdminPostsPage ({  }) {
   return (
     <main>
-      <h1>Admin posts</h1>
+      <AuthCheck>
+        <h1>Admin Posts</h1>
+      </AuthCheck>
     </main>
   )
 }
