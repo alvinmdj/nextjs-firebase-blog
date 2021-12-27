@@ -43,9 +43,19 @@ npm i react-markdown
 
 ========================================================================
 
+Lodash Kebab Case (https://www.npmjs.com/package/lodash.kebabcase)
+Usage: Format a string into a kebab case
+
+Setup:
+npm i lodash.kebabcase
+
+========================================================================
+
 Firebase (https://firebase.google.com/docs/web/setup#available-libraries)
 
-Setup Firebase in Next :
+React Firebase Hooks (https://www.npmjs.com/package/react-firebase-hooks)
+
+Setup Firebase & React Firebase Hooks in Next.js :
 npm i firebase react-firebase-hooks
 
 ========================================================================
