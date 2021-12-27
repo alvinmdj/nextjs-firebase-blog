@@ -27,8 +27,23 @@ function PostItem({ post, admin = false}) {
         <span>
           {wordCount} words. {minutesToRead} min read
         </span>
-        <span>💓 {post.heartCount} Likes</span>
+        <span className="push-left">💓 {post.heartCount || 0} Likes</span>
       </footer>
+
+      {/* If admin, show button to edit post */}
+      {admin && (
+        <>
+          <Link href={`/admin/${post.slug}`}>
+            <h3>
+              <button className="btn-blue">Edit</button>
+            </h3>
+          </Link>
+          {post.published ? 
+            <p className="text-success">Live</p> :
+            <p className="text-danger">Unpublished</p>
+          }
+        </>
+      )}
     </div>
   )
 }

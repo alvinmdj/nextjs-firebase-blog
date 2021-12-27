@@ -222,6 +222,7 @@ input[type="file"] {
     padding: 5px;
     margin: 5px 0;
 }
+
 /* Utilities */
 
 .push-left {
@@ -260,3 +261,7 @@ input[type="file"] {
 }
 
 .hidden { display:  none; }
+
+textarea {
+  resize: vertical;
+}

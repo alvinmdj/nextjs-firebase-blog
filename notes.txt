@@ -51,6 +51,13 @@ npm i lodash.kebabcase
 
 ========================================================================
 
+React Hook Form (https://react-hook-form.com/)
+
+Setup:
+npm install react-hook-form
+
+========================================================================
+
 Firebase (https://firebase.google.com/docs/web/setup#available-libraries)
 
 React Firebase Hooks (https://www.npmjs.com/package/react-firebase-hooks)
