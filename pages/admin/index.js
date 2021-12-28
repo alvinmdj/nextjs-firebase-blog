@@ -63,7 +63,7 @@ function CreateNewPost() {
         uid,
         username,
         published: false,
-        content: '# Put your content here.',
+        content: '# Put your content here. If you upload an image, copy and paste the given code snippet here and preview how it looks!',
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp(),
         heartCount: 0

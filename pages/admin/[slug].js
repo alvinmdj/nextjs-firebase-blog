@@ -1,6 +1,7 @@
 import styles from '../../styles/Admin.module.css'
 import AuthCheck from "../../components/AuthCheck"
 import Metatags from "../../components/Metatags"
+import ImageUploader from "../../components/ImageUploader"
 import { useState } from "react"
 import { useRouter } from "next/router"
 import { useForm } from "react-hook-form";
@@ -81,6 +82,8 @@ function PostForm ({ defaultValues, postRef, preview }) {
       )}
 
       <div className={preview ? styles.hidden : styles.controls}>
+        <ImageUploader />
+        
         <textarea 
           {...register('content', {
             maxLength: { value: 20000, message: 'Content is too long.' },
