@@ -65,7 +65,7 @@ Firebase (https://firebase.google.com/docs/web/setup#available-libraries)
 React Firebase Hooks (https://www.npmjs.com/package/react-firebase-hooks)
 
 Setup Firebase & React Firebase Hooks in Next.js :
-npm i firebase react-firebase-hooks
+npm i firebase@9.4.0 react-firebase-hooks
 
 ========================================================================
 
