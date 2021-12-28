@@ -53,6 +53,8 @@ npm i lodash.kebabcase
 
 React Hook Form (https://react-hook-form.com/)
 
+From State (https://react-hook-form.com/api/useform/formstate/)
+
 Setup:
 npm install react-hook-form
 
