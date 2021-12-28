@@ -1,6 +1,6 @@
 import Loader from '../components/Loader'
 import toast from 'react-hot-toast'
-import { firestore, postToJSON } from '../lib/firebase'
+import { firestore, postToJSON, fromMillis } from '../lib/firebase'
 import { useState } from 'react'
 import PostFeed from '../components/PostFeed'
 import Metatags from '../components/Metatags'
